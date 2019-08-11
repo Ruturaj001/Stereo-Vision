@@ -1,7 +1,8 @@
 # Stereo-Vision
 
 What is Stereo Vision?
-  Extraction of 3D information from two or more 2D images taken from different vintage points. In simple language find distances from Camera to objects in images.
+  Extraction of 3D information from two or more 2D images taken from different vintage points. 
+  In simple language find distances from Camera to objects in images.
 
 Stereo Process
   1. Extract features (points) from left and right image
