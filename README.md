@@ -12,20 +12,19 @@ This project was completed with two different techniques
 
 Approach 1: SUM OF SQUARE DIFFERENCES
   ALGORITHM :
-    • Input Left image
-    • Input Right image
-    • Take a pixel in left image
-    • Create a window around that pixel
-    • Find corresponding pixel in right image with window match
-    technique
-    • Choose the best pixel using SSD
+    1. Input Left image
+    2. Input Right image
+    3. Take a pixel in left image
+    4. Create a window around that pixel
+    5. Find corresponding pixel in right image with window match technique
+    6. Choose the best pixel using SSD
     
 Approach 2: BELIEF PROPAGATION (MARKOV RANDOM FIELD)
   ALGORITHM :
-    • For each iteration
-    • do belief propagation on right.
-    • do belief propagation on left.
-    • do belief propagation on up.
-    • do belief propagation on down.
-    • Calculate MAP (Maximum a posteriori)
+    1. For each iteration
+    2. do belief propagation on right.
+    3. do belief propagation on left.
+    4. do belief propagation on up.
+    5. do belief propagation on down.
+    6. Calculate MAP (Maximum a posteriori)
   
