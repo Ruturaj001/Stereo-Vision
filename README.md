@@ -12,20 +12,35 @@ Stereo Process
 This project was completed with two different techniques
 
 Approach 1: SUM OF SQUARE DIFFERENCES
-  ALGORITHM :
+
+  ALGORITHM
+
     1. Input Left image
+
     2. Input Right image
+
     3. Take a pixel in left image
+
     4. Create a window around that pixel
+
     5. Find corresponding pixel in right image with window match technique
+
     6. Choose the best pixel using SSD
     
+
 Approach 2: BELIEF PROPAGATION (MARKOV RANDOM FIELD)
+
   ALGORITHM :
+
     1. For each iteration
+
     2. do belief propagation on right.
+
     3. do belief propagation on left.
+
     4. do belief propagation on up.
+
     5. do belief propagation on down.
+
     6. Calculate MAP (Maximum a posteriori)
   
